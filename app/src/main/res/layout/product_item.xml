@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <!-- Nome do produto -->
+    <TextView
+        android:id="@+id/textNome"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_do_produto"
+        android:textSize="18sp" />
+
+    <!-- Data de validade -->
+    <TextView
+        android:id="@+id/textValidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:minWidth="100dp"
+        android:text="@string/dd_mm_yyyy"
+        android:textSize="18sp" />
+
+    <!-- Dias restantes -->
+    <TextView
+        android:id="@+id/textDiasRestantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:minWidth="100dp"
+        android:text="@string/x_dias_restantes"
+        android:textColor="#ff0000"
+        android:textSize="18sp" />
+
+</LinearLayout>
