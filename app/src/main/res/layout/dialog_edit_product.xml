@@ -8,17 +8,19 @@
     <EditText
         android:id="@+id/editTextNomeDialog"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Nome do Produto"
+        android:layout_height="48dp"
+        android:hint="@string/nome_do_produto"
         android:inputType="textPersonName"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:textColorHint="#546E7A"/>
 
     <EditText
         android:id="@+id/editTextValidadeDialog"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Data de Validade (dd/MM/yyyy)"
-        android:focusable="false"
+        android:layout_height="48dp"
+        android:hint="@string/data_de_validade_dd_mm_yyyy"
+        android:focusable="true"
         android:clickable="true"
-        android:maxLength="10"/>
+        android:maxLength="10"
+        android:textColorHint="#546E7A"/>
 </LinearLayout>

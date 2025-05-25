@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
     android:orientation="horizontal"
-    android:padding="10dp">
+    android:padding="8dp">
 
     <!-- Nome do produto -->
     <TextView
@@ -32,7 +32,7 @@
         android:layout_marginStart="10dp"
         android:minWidth="100dp"
         android:text="@string/x_dias_restantes"
-        android:textColor="#ff0000"
+        android:textColor="#DD2C00"
         android:textSize="18sp" />
 
 </LinearLayout>

@@ -229,7 +229,6 @@ public class MainActivity extends AppCompatActivity {
         textoNomeDialog.setText(produto.obterNome());
         textoValidadeDialog.setText(converterDataParaExibicao(produto.obterValidade()));
 
-        // Configura DatePicker no diálogo
         textoValidadeDialog.setFocusable(false);
         textoValidadeDialog.setClickable(true);
         textoValidadeDialog.setOnClickListener(v -> {
@@ -321,7 +320,7 @@ public class MainActivity extends AppCompatActivity {
                                     Produto produto = produtos.get(posicao);
                                     mostrarDialogoOpcoes(produto);
                                 }
-                            }, 500); // 3 segundos
+                            }, 500); // meio segundo
                             break;
                         case MotionEvent.ACTION_UP:
                         case MotionEvent.ACTION_CANCEL:

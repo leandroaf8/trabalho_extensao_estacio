@@ -3,4 +3,9 @@
     <string name="dd_mm_yyyy">dd/mm/yyyy</string>
     <string name="x_dias_restantes">X Dias restantes</string>
     <string name="nome_do_produto">Nome do produto</string>
+    <string name="tema">Tema</string>
+    <string name="nome_do_produto1">Nome do Produto</string>
+    <string name="data_de_validade_dd_mm_yyyy">Data de Validade (dd/MM/yyyy)</string>
+    <string name="adicionar_produto">Adicionar Produto</string>
+    <string name="nome_do_produto2">Nome do Produto</string>
 </resources>

@@ -9,12 +9,6 @@ public class Produto {
     public Produto() {
     }
 
-    public Produto(int id, String nome, String validade) {
-        this.id = id;
-        this.nome = nome;
-        this.validade = validade;
-    }
-
     public int obterId() {
         return id;
     }
